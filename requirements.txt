@@ -1,0 +1,13 @@
+# Third party dependencies
+numpy==1.21.2
+pandas==1.3.4
+protobuf==3.20.0 # [fix] protocol buffers error #478
+contractions==0.1.72
+
+# Spacy
+spacy>=3.0.0,<4.0.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.3.0/en_core_web_trf-3.3.0-py3-none-any.whl
+
+
+# Tensorflow
+tensorflow==2.8.0
