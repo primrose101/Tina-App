@@ -52,9 +52,6 @@ class Tina:
         tokens, entities = self.preprocess(message)
         prediction = self.predict(tokens)
         
-        print(prediction)
-        print(entities)
-
         if prediction:
             category = prediction[0][0]
             prob = prediction[0][1]
