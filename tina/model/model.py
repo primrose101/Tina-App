@@ -1,11 +1,18 @@
 import collections
+import os
+from pathlib import Path
 
 import numpy
 from keras.models import load_model
 
-MODEL_PATH = '/mnt/sdap1/projects/ChatBot/chatbot/tina/model/model.h5'
-CATEGORIES_PATH = '/mnt/sdap1/projects/ChatBot/chatbot/tina/model/categories.npy'
-VOCABS_PATH = '/mnt/sdap1/projects/ChatBot/chatbot/tina/model/vocabs.npy'
+
+fname_model = 'model.h5'
+fname_categories = 'categories.npy'
+fname_vocabs = 'vocabs.npy'
+
+MODEL_PATH = os.path.join(Path(__file__).parent, fname_model)
+CATEGORIES_PATH = os.path.join(Path(__file__).parent, fname_categories)
+VOCABS_PATH = os.path.join(Path(__file__).parent, fname_vocabs)
 
 ERROR_THRESHOLD = 0.25
 
