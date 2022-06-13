@@ -5,7 +5,6 @@ from pathlib import Path
 import numpy
 from keras.models import load_model
 
-
 fname_model = 'model.h5'
 fname_categories = 'categories.npy'
 fname_vocabs = 'vocabs.npy'
