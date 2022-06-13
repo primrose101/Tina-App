@@ -3,9 +3,9 @@ import collections
 import numpy
 from keras.models import load_model
 
-MODEL_PATH = '/mnt/sdap1/projects/ChatBot/chatbot/tina/model/model.h5'
-CATEGORIES_PATH = '/mnt/sdap1/projects/ChatBot/chatbot/tina/model/categories.npy'
-VOCABS_PATH = '/mnt/sdap1/projects/ChatBot/chatbot/tina/model/vocabs.npy'
+MODEL_PATH = r'C:/Users/georg/Desktop/Tina/Tina/tina/model/model.h5'
+CATEGORIES_PATH = r'C:/Users/georg/Desktop/Tina/Tina/tina/model/categories.npy'
+VOCABS_PATH = r'C:/Users/georg/Desktop/Tina/Tina/tina/model/vocabs.npy'
 
 ERROR_THRESHOLD = 0.25
 

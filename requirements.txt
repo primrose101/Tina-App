@@ -11,3 +11,6 @@ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.3.
 
 # Tensorflow
 tensorflow==2.8.0
+
+#Flask
+Flask==2.1.2
