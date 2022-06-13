@@ -14,7 +14,7 @@ async def index():
     return render_template("index.html")
 
 @app.route("/get")
-def get_bot_response():
+async def get_bot_response():
     userText = request.args.get('msg')
     return chatbot.block(message=userText)
 

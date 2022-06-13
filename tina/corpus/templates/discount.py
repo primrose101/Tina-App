@@ -4,7 +4,7 @@ from .template import Template
 default_name = 'Discount'
 
 pattern_list = [
-    'For Sibling Discounts: https://bit.ly/CITU-SDP2021. Full-Payment: 20%. Basta You: 0%'
+    'For Sibling Discounts, kindly refer to this link https://bit.ly/CITU-SDP2021. Also, there is a 20 percent discount for those who will pay their tuition in full. Thank you and Stay safe!'
 ]
 
 class Discount(Template):

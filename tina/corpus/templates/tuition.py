@@ -4,7 +4,7 @@ from .template import Template
 default_name = 'Tuition'
 
 pattern_list = [
-    'Generic Tuition. Payment methods: https://bit.ly/citupaymentoptions'
+    'An estimate of the fees is computed as follows: = P835.00 per unit cost x no. of units enrolled (all colleges except, nursing P918.50) = Add miscellaneous fee of around P6K (subject to change in the coming academic year). Also, here is the link for your payment options: https://bit.ly/citupaymentoptions. Thank you and Stay safe!'
 ]
 
 class Tuition(Template):

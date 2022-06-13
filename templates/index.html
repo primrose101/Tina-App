@@ -20,7 +20,7 @@
                 <h3>TINA</h3>
                 <h4>In Your Service</h4>
                 <br><br><br><br>
-                <p class="para">Dear Technologian, it is my delight to assist you in answering any of your concerns. You can send all types of questions regarding (admission, class schedules, documets, etc) and I will do my best to address them all. </p>
+                <p class="para">Dear Technologian, it is my delight to assist you in answering any of your concerns. You can send all types of questions regarding (admission, class schedules, documents, etc) and I will do my best to address them all. </p>
                 
             </div>
             <div class="footer">
@@ -38,9 +38,9 @@
 
   <section class="msger">
     <header class="msger-header">
-      <div class="msger-header-title">
+      <!-- <div class="msger-header-title">
         <h2>Teknoy INquiry Assistant</h2>
-      </div>
+      </div> -->
       <div class="msg right-msg">
         <form action="" class="msger-clear-inputarea">
           <button id="myBtn" class="msger-clear-btn">Clear</button>
@@ -93,14 +93,14 @@
       event.preventDefault();
 
       const msgText = msgerInput.value;
-      if (!msgText) window.location.reload();
+      if (!msgText) return;
 
       appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
       msgerInput.value = "";
       botResponse(msgText);    
     });
 
-    function appendMessage(name, img, side, text) {
+    async function appendMessage(name, img, side, text) {
       //   Simple solution for small apps
       const msgHTML = `
 <div class="msg ${side}-msg">
