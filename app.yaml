@@ -1,7 +1,4 @@
 runtime: python39
 env: flex
-instance_class: F4_1G
-resources:
-  cpu: 1
-  memory_gb: 16
-  disk_size_gb: 20
+instance_class: F2
+
