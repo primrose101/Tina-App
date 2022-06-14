@@ -1,4 +1,3 @@
-from django.shortcuts import redirect
 from flask import Flask, render_template, request
 import tina
 
