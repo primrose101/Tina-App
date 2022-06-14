@@ -6,7 +6,7 @@ contractions==0.1.72
 
 # Spacy
 spacy>=3.0.0,<4.0.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.3.0/en_core_web_trf-3.3.0-py3-none-any.whl
+# https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.3.0/en_core_web_trf-3.3.0-py3-none-any.whl
 
 
 # Tensorflow
