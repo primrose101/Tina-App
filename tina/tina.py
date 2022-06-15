@@ -60,4 +60,4 @@ class Tina:
                 return self.get_reply(category=category, arguments=entities)
             if prob >= .50:
                 return "I'm confused. Can you rephrase that?"
-        return "I don't understand"
+        return "I'm sorry. I didn't quite get that."
